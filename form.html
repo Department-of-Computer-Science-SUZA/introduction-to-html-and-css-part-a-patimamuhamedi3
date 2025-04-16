@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist.css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+    </head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter your Name"><br><br>
+
+            <label>Email</label>
+            <input type="email" name="email" class="form-control" placeholder="Enter your Email"><br><br>
+
+            <label>Password</label>
+            <input type="password" name="password" class="form-control" placeholder="Enter your password"><br><br>
+
+        </fieldset><br><br>
+
+        <fieldset>
+            <lagend>Gender</lagend>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label>Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label>Female</label>
+        </fieldset><br><br>
+
+        <fieldset>
+            <label>Interest</label>
+            <input type="checkbox" name="interest" value="Sport">Sport<br>
+            <input type="checkbox" name="interest" value="Dancing">Dancing<br>
+            <input type="checkbox" name="interest" value="Exercise">Exercise<br><br>
+
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+                <option value="">choose country do you preffer</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+            </select>
+        </fieldset>
+        <label for="profile">choose Image</label><br><br>
+        <input type="file" id="Profile" name="Profile" accepts="image/*" required><br><br>
+        <input type="submit" value="upload">
+    </fieldset>
+    <br><br>
+        <button type="button" value="submit" name="login">Submit</button>
+
+
+    </form>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
+
+
+</body>
+
+
+
+</html>
